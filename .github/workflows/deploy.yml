@@ -1,3 +1,4 @@
+  
 
 name: Deploying Surge
 
@@ -6,7 +7,7 @@ name: Deploying Surge
 on:
   push:
     branches: [ master ]
-  pull_request:-*
+  pull_request:
     branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -33,5 +34,3 @@ jobs:
     - name: Deploying Surge
       run: surge ./ rigid-grain.surge.sh --token ${{ secrets.NEWSECRET4 }}
 
-
-    # Runs a set of commands using the runners shell
