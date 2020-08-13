@@ -29,6 +29,7 @@
     color: #fff!important;
     font-size: 13px;
     text-decoration: none!important;
+    font-weight: bold;
 
 }
 
@@ -52,3 +53,8 @@
     font-size: 13px;
     font-weight: 600;
 }
+
+.carousel-item img{
+    max-height: 550px;
+}
+
