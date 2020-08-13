@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -58,6 +60,36 @@
     max-height: 550px;
 }
 
-.color-bg{
+.color-bgp{
     background-color: #316DC3!important;
+}
+
+
+.color-bgg{
+    background-color: #f7f8fa !important;
+}
+
+.container h2 span:nth-of-type(1){
+    color: #316DC3!important;
+    line-height: 1 !important;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.container h2 span:nth-of-type(2){
+    color: #427900 !important;
+    line-height: 1 !important;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.text{
+    
+    text-align: justify;
+    line-height: 1.7;
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
