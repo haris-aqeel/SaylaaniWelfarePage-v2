@@ -17,3 +17,38 @@
     }
 }
 
+
+.navbar{
+    background-color: #f7f8fa !important;
+}
+
+.nav-link1, .nav-link:hover{
+    background-color: #316DC3!important;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #fff!important;
+    font-size: 13px;
+    text-decoration: none!important;
+
+}
+
+@media only screen and(max-width: 992px){
+    
+.nav-link1, .nav-link:hover, li{
+    width: 100%;
+    background-color: #316DC3!important;
+    font-weight: 500;
+    border-radius: 2px!important;
+    color: #fff!important;
+    font-size: 13px;
+    text-decoration: none!important;
+    text-align: center;
+
+}    
+}
+
+.nav-link{
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+}
