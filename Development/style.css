@@ -93,3 +93,29 @@
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.band{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+article .band h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+article .band p{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+article .band p span{
+    color: #00FF00;
+}
+
+.feild{
+    display: inline-block;
+}
