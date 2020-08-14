@@ -3,7 +3,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 .icons{
@@ -117,5 +116,25 @@ article .band p span{
 }
 
 .feild{
-    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px lightgrey;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+    width: 100%;
+
 }
+
+.field-text p{
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 1.42857143;
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+/* @media only screen and(min-width: 500px){
+    .set .col{
+        font-size: 50px!important;
+    }
+} */
